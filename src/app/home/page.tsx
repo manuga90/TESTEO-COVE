@@ -1,4 +1,10 @@
 import FileUpload from "../../components/FileUpload";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Subida de Archivos - Cloudinary",
+  description: "Página para subir archivos a Cloudinary",
+};
 
 export default function HomePage() {
   return (
